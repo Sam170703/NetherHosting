@@ -4,7 +4,7 @@ const eventHandler = require('../../handlers/eventHandler');
 //cont {token} = require('/home/container/NetherHosting/src/core/token/token.json');
 const {token} = require('../token/token.json');
 //const slashcommandHanlder = require('/home/container/NetherHosting/src/handlers/slashcommands');
-const slashcommandsHanlder = require('../../handlers/slashcommands');
+//const slashcommandsHanlder = require('../../handlers/slashcommands');
 
 class netherhosting extends Client{
     constructor(){
