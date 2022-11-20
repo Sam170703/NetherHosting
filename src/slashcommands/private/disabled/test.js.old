@@ -1,0 +1,15 @@
+const { SlashCommandBuilder,
+    EmbedBuilder } = require('discord.js');
+    
+    module.exports = {
+        data: new SlashCommandBuilder()
+        .setName('test')
+        .setDescription('Comando de prueba'),
+    
+    async execute(netherhosting, interaction) {
+    
+        const time = Date.now()
+    
+        interaction.reply("Todo en orden");
+    },
+    };
