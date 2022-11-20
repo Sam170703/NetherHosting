@@ -8,7 +8,7 @@ module.exports = {
     run: async(netherhosting, message, args) => {
         
         function ejecutarcomandoisOK() {
-			if(!args[0]) return message.channel.send(':x: | Debes escribir algo para evaluar.\nSintaxis: `nc/eval <código a evaluar>`\nPor ejemplo: `nc/eval` message.author.id');
+			if(!args[0]) return message.channel.send(':x: | Debes escribir algo para evaluar.\nSintaxis: `nh/eval <código a evaluar>`\nPor ejemplo: `nh/eval` message.author.id');
 
 			//Eval
 			async function enviar(mensaje) {
