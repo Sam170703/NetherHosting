@@ -6,7 +6,7 @@ module.exports = {
     execute: async(netherhosting) => {
     
         var estado = "idle";
-        netherhosting.user.setActivity({name: `a DragonCat`, type: ActivityType.Listening});
+        netherhosting.user.setActivity({name: `Fuera de servicio temporalmente`, type: ActivityType.Listening});
         netherhosting.user.setStatus(`${estado}`);
         console.log(`Bot: ${netherhosting.user.username}\nEstado: ${estado}`);
         
