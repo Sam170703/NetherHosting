@@ -20,7 +20,7 @@ class netherhosting extends Client{
 start(){
 
     eventHandler(this);
-   // slashcommandsHanlder(this);
+    slashcommandsHanlder(this);
     this.login(token);
 };
 };
