@@ -1,6 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const { create } = require('sourcebin');
-const { ownerid } = require('../../../data/socket.json');
+const { ownerid } = require('/home/container/NetherHosting/src/data/socket.json');
+//const { ownerid } = require('../../../data/socket.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
