@@ -3,7 +3,8 @@ module.exports = {
     once: false,
 
     async execute(netherhosting, member) {
-        const { ownerid } = require('../data/socket.json');
+        const { ownerid } = require('/home/container/NetherHosting/src/data/socket.json');
+        //const { ownerid } = require('../data/socket.json');
         var usuario = netherhosting.users.cache.find(user => user.id === `${member.id}`);
         if(member === netherhosting.user) return console.log("Alerta!! Actividad sospechosa detectada en mis bases de datos.\nHe sido invitado a un servidor nuevo sin su autorización!").catch(()=> { null; });
         let servidor = netherhosting.guilds.cache.find(server => server.id === "815039537486364702");
